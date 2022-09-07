@@ -6,6 +6,6 @@ Calci Indonesia website
 
 Contributors names and contacts info
 
-- Zoel (@zul1996) Linkedin [Zoel](https://www.linkedin.com/in/muhammad-zulkarnaen-indranto-583151174/)
-- Fikri (@fikrialwan) Linkedin [Fikri](https://www.linkedin.com/in/fikri-alwan/)
-- Bayu (@baysatriow) Linkedin [Bayu](https://www.linkedin.com/in/baysatriow/)
+- Zoel (@zul1996) [Linkedin](https://www.linkedin.com/in/muhammad-zulkarnaen-indranto-583151174/)
+- Fikri (@fikrialwan) [Linkedin](https://www.linkedin.com/in/fikri-alwan/)
+- Bayu (@baysatriow) [Linkedin](https://www.linkedin.com/in/baysatriow/)
