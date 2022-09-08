@@ -195,6 +195,8 @@ header {
 /* NAVBAR */
 
 nav {
+  position: fixed;
+  top: 0;
   width: 100%;
   display: flex;
   justify-content: end;
@@ -291,6 +293,49 @@ a.nav-title {
   color: var(--color-default-white);
   text-transform: uppercase;
 } */
+
+/* HERO */
+
+section.hero {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 115px;
+}
+
+section.hero h1 {
+  margin-top: 5rem;
+  font-size: 3rem;
+  color: var(--color-primary);
+}
+
+section.hero h4 {
+  color: var(--color-primary);
+}
+
+.line-hero {
+  width: 15.5rem;
+  height: 2px;
+  background-color: var(--color-primary);
+  margin: 13px 0 7px 0;
+}
+
+section.hero p {
+  margin: 16px 0 57px 0;
+  max-width: 19.688rem;
+  color: var(--color-default-white);
+  font-size: 0.875rem;
+  line-height: 1.05rem;
+}
+
+section.hero a {
+  color: var(--color-default-white);
+  background-color: var(--color-third);
+  padding: 15px 20px;
+  border-radius: 15px;
+}
 
 @media (max-width: 960px) {
   ul.nav-list {
