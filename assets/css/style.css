@@ -184,14 +184,26 @@ h6 {
   font-size: 1.278rem;
 }
 
+header {
+  height: 100vh;
+  background: url(/assets/images/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 /* NAVBAR */
 
-/* nav {
+nav {
   width: 100%;
   display: flex;
   justify-content: end;
+  align-items: center;
   padding: 30px 62px 0 0;
   gap: 2rem;
+}
+
+nav.bg-black {
   background-color: var(--color-default);
 }
 
@@ -233,12 +245,25 @@ div.line {
   background-color: var(--color-primary);
 }
 
-nav img {
+img.search {
   cursor: pointer;
   width: 1.829rem;
-} */
+}
 
-nav {
+.menu {
+  display: none;
+  background-color: var(--color-primary);
+  padding: 7px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.menu img {
+  width: 1.1rem;
+  margin-top: 0.1rem;
+}
+
+/* nav {
   display: flex;
   justify-content: space-between;
 }
@@ -265,4 +290,18 @@ a.nav-title {
   background-color: var(--color-primary);
   color: var(--color-default-white);
   text-transform: uppercase;
+} */
+
+@media (max-width: 960px) {
+  ul.nav-list {
+    display: none;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+  }
 }
