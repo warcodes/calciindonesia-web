@@ -387,9 +387,21 @@ section.arrival h1 {
 Catalog Page
 */
 
+main.catalog {
+  padding: 0 120px;
+}
+
+main.catalog section,
+.desc-catalog-show {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1263px;
+}
+
 /* filter section */
 section.filter {
-  margin: 208px 129px 0 129px;
+  margin-top: 208px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -429,12 +441,11 @@ section.filter p {
   font-family: "Roboto", sans-serif;
   font-size: 0.92rem;
   font-weight: 400;
-  padding: 24px 129px 35px;
+  padding: 24px 0 35px 0;
 }
 
 /* product section */
 section.product-list {
-  padding: 0 129px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 33px;
