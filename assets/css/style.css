@@ -5,6 +5,15 @@
   --color-third: #ea5455;
   --color-fourth: #ffd460;
   --color-default: #000000;
+  --color-default-white: #ffffff;
+
+  /* font size */
+  --font-size-1: 3.833rem;
+  --font-size-2: 3.056rem;
+  --font-size-3: 2.444rem;
+  --font-size-4: 1.944rem;
+  --font-size-5: 1.556rem;
+  --font-size-6: 1.278rem;
 }
 
 h1,
@@ -17,6 +26,10 @@ a {
   font-weight: 400;
   color: var(--color-default);
   font-family: "Red Hat Mono", monospace;
+}
+
+a {
+  text-decoration: none;
 }
 
 h1 {
@@ -44,4 +57,58 @@ h5 {
 
 h6 {
   font-size: 1.278rem;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  padding: 16px 62px 16px 0;
+  gap: 2rem;
+  background-color: var(--color-default);
+}
+
+a.nav-title {
+  font-size: var(--font-size-5);
+  margin: 0;
+  padding: 34px 7px 7px 0;
+  position: fixed;
+  top: 0;
+  left: 115px;
+  background-color: var(--color-primary);
+  color: var(--color-default-white);
+  text-transform: uppercase;
+}
+
+a.nav-title span {
+  font-size: 2.5rem;
+}
+
+ul.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 2.75rem;
+}
+
+ul.nav-list li a {
+  font-size: var(--font-size-6);
+  color: var(--color-default-white);
+}
+
+ul.nav-list li a.active {
+  color: var(--color-primary);
+}
+
+div.line {
+  height: 2.938rem;
+  width: 2px;
+  margin-left: 1rem;
+  background-color: var(--color-primary);
+}
+
+nav img {
+  cursor: pointer;
+  width: 1.829rem;
 }
