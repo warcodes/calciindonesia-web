@@ -201,7 +201,8 @@ header {
 nav {
   position: fixed;
   top: 0;
-  width: 100vw;
+  width: 100%;
+  max-width: 100vw;
   padding: 0 62px 0 115px;
 }
 
@@ -214,7 +215,7 @@ nav.bg-black {
   justify-content: space-between;
   width: 100%;
   max-width: 1343px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .nav-list-container {
@@ -254,6 +255,7 @@ ul.nav-list li a {
 
 ul.nav-list li a.active {
   color: var(--color-primary);
+  font-weight: bold;
 }
 
 div.line {
@@ -319,7 +321,7 @@ section.hero h4 {
 
 section.hero p {
   margin: 16px 0 57px 0;
-  max-width: 19.688rem;
+  max-width: 19rem;
   color: var(--color-default-white);
   font-size: 0.875rem;
   line-height: 1.05rem;
