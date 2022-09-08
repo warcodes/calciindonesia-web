@@ -386,6 +386,44 @@ section.arrival h1 {
   font-weight: bold;
 }
 
+/**
+Catalog Page
+*/
+
+/* filter section */
+section.filter {
+  margin: 208px 129px 0 129px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid var(--color-second);
+  padding: 19px 24px;
+}
+
+ul.filter-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+ul.filter-list li {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  text-transform: uppercase;
+}
+
+section.filter p {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  text-transform: uppercase;
+}
+
 @media (max-width: 960px) {
   ul.nav-list {
     display: none;
