@@ -201,7 +201,7 @@ nav {
   display: flex;
   justify-content: end;
   align-items: center;
-  padding: 30px 62px 0 0;
+  padding: 16px 62px 16px 0;
   gap: 2rem;
 }
 
@@ -348,5 +348,33 @@ section.hero a {
 
   .menu {
     display: block;
+  }
+}
+
+@media (max-width: 640px) {
+  section.hero h1 {
+    display: none;
+  }
+
+  .line-hero {
+    display: none;
+  }
+
+  section.hero a {
+    align-self: center;
+  }
+}
+
+@media (max-width: 460px) {
+  nav {
+    padding: 16px 30px 16px 0;
+  }
+
+  a.nav-title {
+    left: 30px;
+  }
+
+  section.hero {
+    padding: 0 30px;
   }
 }
