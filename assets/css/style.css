@@ -4,4 +4,44 @@
   --color-second: #2d4059;
   --color-third: #ea5455;
   --color-fourth: #ffd460;
+  --color-default: #000000;
+}
+
+h1,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-weight: 400;
+  color: var(--color-default);
+  font-family: "Red Hat Mono", monospace;
+}
+
+h1 {
+  font-size: 3.833rem;
+}
+
+h2 {
+  font-size: 3.056rem;
+  font-weight: 700;
+  color: var(--color-default);
+  font-family: "Roboto Slab", serif;
+}
+
+h3 {
+  font-size: 2.444rem;
+}
+
+h4 {
+  font-size: 1.944rem;
+}
+
+h5 {
+  font-size: 1.556rem;
+}
+
+h6 {
+  font-size: 1.278rem;
 }
