@@ -414,6 +414,8 @@ ul.filter-list li {
   align-items: center;
   gap: 2px;
   text-transform: uppercase;
+  font-size: 0.92rem;
+  font-weight: 400;
 }
 
 section.filter p {
@@ -422,6 +424,59 @@ section.filter p {
   align-items: center;
   gap: 2px;
   text-transform: uppercase;
+  font-size: 0.92rem;
+  font-weight: 400;
+}
+
+.desc-catalog-show {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.92rem;
+  font-weight: 400;
+  padding: 24px 129px 35px;
+}
+
+/* product section */
+section.product-list {
+  padding: 0 129px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 33px;
+}
+
+.product-list article {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+article img {
+  width: 100%;
+  aspect-ratio: 1.4/1;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 11px;
+}
+
+.product-title {
+  font-size: 0.75rem;
+}
+
+.product-price {
+  font-family: "Roboto", sans-serif;
+  color: var(--color-fourth);
+  font-size: 00.875rem;
+}
+
+.product-view-button {
+  font-family: "Roboto", sans-serif;
+  color: var(--color-default-white);
+  font-size: 00.875rem;
+  background-color: var(--color-second);
+  padding: 11.5px 33px;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 960px) {
