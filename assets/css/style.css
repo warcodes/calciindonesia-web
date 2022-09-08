@@ -443,7 +443,7 @@ article img {
 
 .product-price {
   font-family: "Roboto", sans-serif;
-  color: var(--color-fourth);
+  color: var(--color-primary);
   font-size: 00.875rem;
 }
 
@@ -451,7 +451,7 @@ article img {
   font-family: "Roboto", sans-serif;
   color: var(--color-default-white);
   font-size: 00.875rem;
-  background-color: var(--color-second);
+  background-color: var(--color-default);
   padding: 11.5px 33px;
   border-radius: 10px;
   margin-top: 5px;
