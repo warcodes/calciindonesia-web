@@ -262,6 +262,13 @@ ul.nav-list li a {
   color: var(--color-default-white);
 }
 
+ul.nav-list li a:hover {
+  font-size: var(--font-size-6);
+  color: var(--color-primary);
+  font-weight: bold;
+  cursor: pointer;
+}
+
 ul.nav-list li a.active {
   color: var(--color-primary);
   font-weight: bold;
@@ -483,6 +490,48 @@ Artis section
   flex-direction: column;
   align-self: center;
   gap: 30px;
+}
+
+/* Blog */
+
+.blog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin: 30px auto;
+}
+
+.blog-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  max-width: 1400px;
+  margin: 50px auto;
+}
+
+.blog-card {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 670px;
+  gap: 15px;
+  background-color: #e8e6e6;
+}
+
+.blog-card:hover {
+  background-color: var(--color-third);
+}
+
+.blog-card p {
+  padding-left: 10px;
+}
+
+.blog-card h5 {
+  font-weight: 600;
+  padding-left: 10px;
 }
 /**
 Catalog Page
