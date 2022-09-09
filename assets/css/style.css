@@ -557,6 +557,7 @@ section.filter {
   margin-top: 208px;
   display: flex;
   justify-content: space-between;
+  gap: 20px;
   align-items: center;
   border-radius: 10px;
   border: 1px solid var(--color-second);
@@ -578,6 +579,7 @@ ul.filter-list li {
   text-transform: uppercase;
   font-size: 0.92rem;
   font-weight: 400;
+  cursor: pointer;
 }
 
 section.filter p {
@@ -588,6 +590,11 @@ section.filter p {
   text-transform: uppercase;
   font-size: 0.92rem;
   font-weight: 400;
+  cursor: pointer;
+}
+
+section.filter p.filter-mobile {
+  display: none;
 }
 
 .desc-catalog-show {
@@ -802,6 +809,14 @@ footer form button {
 
   .menu {
     display: block;
+  }
+
+  ul.filter-list {
+    display: none;
+  }
+
+  section.filter p.filter-mobile {
+    display: flex;
   }
 }
 
