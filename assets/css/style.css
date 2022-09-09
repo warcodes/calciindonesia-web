@@ -413,22 +413,22 @@ Artis section
   flex-direction: row;
 }
 
-.testimoni {
+.artist-comment {
   display: flex;
   flex-direction: column;
   gap: 10px;
   justify-content: center;
 }
 
-.testimoni h1 {
+.artist-comment h1 {
   color: var(--color-default-white);
 }
 
-.testimoni p {
+.artist-comment p {
   color: var(--color-default-white);
 }
 
-.testimoni h1:nth-child(2) {
+.artist-comment h1:nth-child(2) {
   display: flex;
   /* left: 0; */
   background-color: var(--color-primary);
@@ -471,11 +471,9 @@ Artis section
 /* Testimoni */
 
 .testimoni {
-  max-height: 100%;
-  height: 694px;
-  width: 100%;
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
   gap: 30px;
   background-color: #e8e6e6;
 }
