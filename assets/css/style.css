@@ -532,15 +532,21 @@ footer {
   background-color: var(--color-default);
   padding: 78px 115px;
   width: 100%;
-  display: grid;
-  grid-template-columns: 1.5fr 1fr 2fr 2fr;
-  gap: 42px;
 }
 
 footer h3,
 p,
 a {
   color: var(--color-default-white);
+}
+
+footer .footer-container {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 2fr 2fr;
+  gap: 42px;
+  max-width: 1263px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 footer section {
@@ -609,7 +615,7 @@ footer form button {
 }
 
 @media (max-width: 1200px) {
-  footer {
+  .footer-container {
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -641,7 +647,7 @@ footer form button {
     align-self: center;
   }
 
-  footer {
+  .footer-container {
     grid-template-columns: 1fr;
   }
 }
