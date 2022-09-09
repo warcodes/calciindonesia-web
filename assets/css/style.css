@@ -467,6 +467,25 @@ Artis section
   gap: 20px;
   align-items: center;
 }
+
+/* Testimoni */
+
+.testimoni {
+  max-height: 100%;
+  height: 694px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  background-color: #e8e6e6;
+}
+
+.commentar-client {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  gap: 30px;
+}
 /**
 Catalog Page
 */
