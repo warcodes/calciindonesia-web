@@ -392,6 +392,48 @@ section.arrival h1 {
   font-weight: bold;
 }
 
+/** 
+Artis section 
+*/
+
+.artist {
+  background-color: #450209;
+  margin: 20px 0;
+}
+
+.artist-container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.testimoni {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+
+.testimoni h1,
+p {
+  color: var(--color-default-white);
+}
+
+.testimoni h1:nth-child(2) {
+  display: flex;
+  /* left: 0; */
+  background-color: var(--color-primary);
+  color: var(--color-default-white);
+  justify-content: start;
+  align-items: center;
+  width: 250px;
+  height: 80px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
 /**
 Catalog Page
 */
