@@ -542,8 +542,8 @@ footer {
 }
 
 footer h3,
-p,
-a {
+footer p,
+footer a {
   color: var(--color-default-white);
 }
 
