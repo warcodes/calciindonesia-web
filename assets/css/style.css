@@ -444,7 +444,7 @@ Artis section
   align-items: center;
   width: 250px;
   height: 65px;
-  border-dius: 5px;
+  border-radius: 5px;
   text-transform: uppercase;
 }
 
@@ -688,7 +688,7 @@ footer a {
   color: var(--color-default-white);
 }
 
-footer .footer-container {
+.footer-container {
   display: grid;
   grid-template-columns: 1.5fr 1fr 2fr 2fr;
   gap: 42px;
