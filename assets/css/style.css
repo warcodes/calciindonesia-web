@@ -147,7 +147,9 @@ h4,
 h5,
 h6,
 p,
-a {
+a,
+button,
+input {
   font-weight: 400;
   color: var(--color-default);
   font-family: "Red Hat Mono", monospace;
@@ -524,6 +526,94 @@ section.pagination {
   margin-bottom: 5px;
 }
 
+/* footer */
+
+footer {
+  background-color: var(--color-default);
+  padding: 78px 115px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 2fr 2fr;
+  gap: 42px;
+}
+
+footer h3,
+p,
+a {
+  color: var(--color-default-white);
+}
+
+footer section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+footer h3 {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+footer h3.footer-calci {
+  font-weight: 400;
+  color: var(--color-third);
+}
+
+ul.social-media {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+ul.social-media img {
+  width: 1.5rem;
+}
+
+ul.footer-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+ul.footer-menu li {
+  display: flex;
+  align-items: center;
+}
+
+ul.footer-menu li.active::before {
+  content: "•";
+  color: var(--color-third);
+  display: inline-block;
+  width: 20px;
+  font-size: 2rem;
+  line-height: 0;
+}
+
+footer form {
+  display: flex;
+  gap: 0;
+}
+
+footer form input {
+  border: none;
+  padding: 13px;
+  outline: none;
+  width: 100%;
+}
+
+footer form button {
+  border: none;
+  padding: 13px;
+  background-color: var(--color-third);
+  color: var(--color-default-white);
+}
+
+@media (max-width: 1200px) {
+  footer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 @media (max-width: 960px) {
   ul.nav-list {
     display: none;
@@ -549,6 +639,10 @@ section.pagination {
 
   section.hero a {
     align-self: center;
+  }
+
+  footer {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -579,5 +673,9 @@ section.pagination {
 
   .pagination-list img {
     margin: 2.5px 5px 0 5px;
+  }
+
+  footer {
+    padding: 78px 30px;
   }
 }
