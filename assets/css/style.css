@@ -386,6 +386,10 @@ section.arrival h1 {
   flex-direction: column;
   gap: 10px;
 }
+.card-arrival p:nth-child(2) {
+  color: var(--color-default);
+  font-weight: bold;
+}
 
 .card-arrival p:nth-child(3) {
   color: var(--color-primary);
@@ -416,8 +420,11 @@ Artis section
   justify-content: center;
 }
 
-.testimoni h1,
-p {
+.testimoni h1 {
+  color: var(--color-default-white);
+}
+
+.testimoni p {
   color: var(--color-default-white);
 }
 
@@ -429,11 +436,37 @@ p {
   justify-content: start;
   align-items: center;
   width: 250px;
-  height: 80px;
-  border-radius: 5px;
+  height: 65px;
+  border-dius: 5px;
   text-transform: uppercase;
 }
 
+/* Service */
+
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin: 20px auto;
+}
+
+.card-service-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1100px;
+  margin: 50px auto;
+}
+
+.card-service {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
 /**
 Catalog Page
 */
