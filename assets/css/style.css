@@ -294,15 +294,67 @@ img.search {
 
 .menu {
   display: none;
-  background-color: var(--color-primary);
+  height: 33px;
+  width: 33px;
   padding: 7px;
+  background-color: var(--color-primary);
   cursor: pointer;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu.hidden {
+  display: none;
 }
 
 .menu img {
   width: 1.1rem;
-  margin-top: 0.1rem;
+}
+
+nav.nav-mobile {
+  transform: translateX(100%);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 5;
+  background-color: var(--color-default);
+  transition: all 0.5s ease-in;
+}
+
+nav.nav-mobile.show {
+  transform: translateX(0%);
+}
+
+.nav-mobile .nav-container .nav-list {
+  padding-top: 150px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.close {
+  display: none;
+  background-color: var(--color-primary);
+  height: 33px;
+  width: 33px;
+  cursor: pointer;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.close.show {
+  display: flex;
+}
+
+.close img {
+  height: 18px;
+  margin: 0 2px 2px 0;
 }
 
 /* HERO */
