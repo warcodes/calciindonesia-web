@@ -469,6 +469,7 @@ Artis section
   width: 100%;
   max-width: 1100px;
   margin: 50px auto;
+  padding: 0 42px;
 }
 
 .card-service {
@@ -844,6 +845,11 @@ footer form button {
 
   .footer-container {
     grid-template-columns: 1fr;
+  }
+
+  .card-service-container {
+    flex-direction: column;
+    gap: 50px;
   }
 }
 
