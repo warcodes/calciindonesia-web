@@ -371,6 +371,7 @@ section.arrival {
 section.arrival h1 {
   font-family: var(--font-red-hat-mono);
   font-weight: bold;
+  text-align: center;
 }
 
 .alert-line {
@@ -392,6 +393,28 @@ section.arrival h1 {
   width: 100%;
   max-width: 1100px;
   margin-top: 40px;
+  position: relative;
+}
+
+.card-container .icon-arrow-circle:nth-of-type(1) {
+  position: absolute;
+  left: 0px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.card-container .icon-arrow-circle:nth-of-type(2) {
+  position: absolute;
+  right: 0px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.card-container .icon-arrow-circle img {
+  cursor: pointer;
+  width: 60px;
 }
 
 .card-arrival {
