@@ -488,6 +488,7 @@ Artis section
   align-items: center;
   gap: 5px;
   margin: 20px auto;
+  padding: 0 10px;
 }
 
 .service h3 {
@@ -496,6 +497,7 @@ Artis section
   color: var(--color-third);
   font-size: 1.438rem;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .service h1 {
@@ -503,6 +505,7 @@ Artis section
   font-weight: 700;
   font-size: 3.438rem;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .card-service-container {
@@ -565,6 +568,7 @@ Artis section
   align-items: center;
   gap: 5px;
   margin: 30px auto;
+  padding: 0 10px;
 }
 
 .blog h3 {
@@ -573,6 +577,7 @@ Artis section
   color: var(--color-third);
   font-size: 1.438rem;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .blog h1 {
@@ -580,6 +585,7 @@ Artis section
   font-weight: 700;
   font-size: 3.438rem;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .blog-container {
