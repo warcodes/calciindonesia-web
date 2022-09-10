@@ -482,18 +482,34 @@ Artis section
 /* Testimoni */
 
 .testimoni {
+  background-color: #e8e6e6;
+  width: 100%;
+}
+
+.testimoni-container {
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  gap: 30px;
-  background-color: #e8e6e6;
+  max-width: 1400px;
+  width: 100%;
+}
+
+.testimoni-container iframe {
+  flex: 1;
+  aspect-ratio: 1/1;
 }
 
 .commentar-client {
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-self: center;
   gap: 30px;
+  padding: 50px;
+}
+
+.commentar-client {
+  width: 100%;
 }
 
 /* Blog */
@@ -822,6 +838,10 @@ footer form button {
   }
 
   .artist-container {
+    flex-direction: column;
+  }
+
+  .testimoni-container {
     flex-direction: column;
   }
 
