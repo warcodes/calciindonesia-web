@@ -300,7 +300,6 @@ img.search {
   background-color: var(--color-primary);
   cursor: pointer;
   border-radius: 50%;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -324,10 +323,6 @@ nav.nav-mobile {
   transition: all 0.5s ease-in;
 }
 
-nav.nav-mobile.show {
-  transform: translateX(0%);
-}
-
 .nav-mobile .nav-container .nav-list {
   padding-top: 150px;
   display: flex;
@@ -346,10 +341,6 @@ nav.nav-mobile.show {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-}
-
-.close.show {
-  display: flex;
 }
 
 .close img {
@@ -978,6 +969,14 @@ footer form button {
 
   ul.filter-list {
     display: none;
+  }
+
+  nav.nav-mobile.show {
+    transform: translateX(0%);
+  }
+
+  .close.show {
+    display: flex;
   }
 
   section.filter p.filter-mobile {
