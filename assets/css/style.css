@@ -978,7 +978,7 @@ footer form button {
   }
 }
 
-@media (max-width: 460px) {
+@media (max-width: 500px) {
   nav {
     padding: 16px 30px 16px 0;
   }
