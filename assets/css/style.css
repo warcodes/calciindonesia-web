@@ -139,6 +139,11 @@ table {
   --font-size-4: 1.944rem;
   --font-size-5: 1.556rem;
   --font-size-6: 1.278rem;
+
+  /* font family */
+  --font-roboto: "Roboto", sans-serif;
+  --font-red-hat-mono: "Red Hat Mono", monospace;
+  --font-roboto-slab: "Roboto Slab", serif;
 }
 
 h1,
@@ -152,7 +157,7 @@ button,
 input {
   font-weight: 400;
   color: var(--color-default);
-  font-family: "Red Hat Mono", monospace;
+  font-family: var(--font-red-hat-mono);
 }
 
 a {
@@ -167,7 +172,7 @@ h2 {
   font-size: 3.056rem;
   font-weight: 700;
   color: var(--color-default);
-  font-family: "Roboto Slab", serif;
+  font-family: var(--font-roboto-slab);
 }
 
 h3 {
@@ -364,7 +369,7 @@ section.arrival {
 }
 
 section.arrival h1 {
-  font-family: "Red Hat Mono", monospace;
+  font-family: var(--font-red-hat-mono);
   font-weight: bold;
 }
 
@@ -460,6 +465,21 @@ Artis section
   align-items: center;
   gap: 5px;
   margin: 20px auto;
+}
+
+.service h3 {
+  font-family: var(--font-roboto);
+  font-weight: 400;
+  color: var(--color-third);
+  font-size: 1.438rem;
+  text-transform: uppercase;
+}
+
+.service h1 {
+  font-family: var(--font-roboto-slab);
+  font-weight: 700;
+  font-size: 3.438rem;
+  text-transform: capitalize;
 }
 
 .card-service-container {
@@ -591,7 +611,7 @@ ul.filter-list {
 }
 
 ul.filter-list li {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font-roboto);
   display: flex;
   align-items: center;
   gap: 2px;
@@ -602,7 +622,7 @@ ul.filter-list li {
 }
 
 section.filter p {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font-roboto);
   display: flex;
   align-items: center;
   gap: 2px;
@@ -670,13 +690,13 @@ article img {
 }
 
 .product-price {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font-roboto);
   color: var(--color-primary);
   font-size: 00.875rem;
 }
 
 .product-view-button {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font-roboto);
   color: var(--color-default-white);
   font-size: 00.875rem;
   background-color: var(--color-default);
