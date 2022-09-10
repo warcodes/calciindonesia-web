@@ -544,6 +544,21 @@ Artis section
   margin: 30px auto;
 }
 
+.blog h3 {
+  font-family: var(--font-roboto);
+  font-weight: 400;
+  color: var(--color-third);
+  font-size: 1.438rem;
+  text-transform: uppercase;
+}
+
+.blog h1 {
+  font-family: var(--font-roboto-slab);
+  font-weight: 700;
+  font-size: 3.438rem;
+  text-transform: capitalize;
+}
+
 .blog-container {
   display: flex;
   justify-content: space-around;
