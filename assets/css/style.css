@@ -506,9 +506,10 @@ Artis section
   align-self: center;
   gap: 30px;
   padding: 50px;
+  width: 100%;
 }
 
-.commentar-client {
+.commentar-client img {
   width: 100%;
 }
 
@@ -814,6 +815,10 @@ footer form button {
   .footer-container {
     grid-template-columns: 1fr 1fr;
   }
+
+  .card-container .card-arrival:nth-last-of-type(1) {
+    display: none;
+  }
 }
 
 @media (max-width: 960px) {
@@ -850,6 +855,12 @@ footer form button {
   }
 }
 
+@media (max-width: 820px) {
+  .card-container .card-arrival:nth-last-of-type(2) {
+    display: none;
+  }
+}
+
 @media (max-width: 640px) {
   section.hero h1 {
     display: none;
@@ -870,6 +881,10 @@ footer form button {
   .card-service-container {
     flex-direction: column;
     gap: 50px;
+  }
+
+  .card-container .card-arrival:nth-last-of-type(3) {
+    display: none;
   }
 }
 
