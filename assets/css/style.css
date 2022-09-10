@@ -418,6 +418,7 @@ Artis section
   width: 100%;
   max-width: 1100px;
   margin: 0 auto;
+  display: grid;
   display: flex;
   flex-direction: row;
 }
@@ -817,6 +818,14 @@ footer form button {
 
   section.filter p.filter-mobile {
     display: flex;
+  }
+
+  .artist-container {
+    flex-direction: column;
+  }
+
+  .artist-comment {
+    padding: 0 42px 42px 42px;
   }
 }
 
