@@ -819,6 +819,10 @@ footer form button {
   .card-container .card-arrival:nth-last-of-type(1) {
     display: none;
   }
+
+  .blog-container .blog-card:nth-last-child(1) {
+    display: none;
+  }
 }
 
 @media (max-width: 960px) {
@@ -857,6 +861,10 @@ footer form button {
 
 @media (max-width: 820px) {
   .card-container .card-arrival:nth-last-of-type(2) {
+    display: none;
+  }
+
+  .blog-container .blog-card:nth-last-of-type(2) {
     display: none;
   }
 }
