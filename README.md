@@ -1,10 +1,10 @@
 # Calci Indonesia
 
-Calci Indonesia website
+Calci Indonesia is a sports goods company.
 
 ## Authors
 
-Contributors names and contacts info
+The contributor names and contacts info
 
 - Zoel (@zul1996) [Linkedin](https://www.linkedin.com/in/muhammad-zulkarnaen-indranto-583151174/)
 - Fikri (@fikrialwan) [Linkedin](https://www.linkedin.com/in/fikri-alwan/)
