@@ -890,7 +890,7 @@ footer h3 {
 
 footer h3.footer-calci {
   font-weight: 400;
-  color: var(--color-third);
+  color: var(--color-primary);
 }
 
 ul.social-media {
@@ -938,7 +938,7 @@ footer form input {
 footer form button {
   border: none;
   padding: 13px;
-  background-color: var(--color-third);
+  background-color: var(--color-primary);
   color: var(--color-default-white);
 }
 
